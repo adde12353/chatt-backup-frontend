@@ -14,7 +14,7 @@ function App() {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
-    socket = io("https://backendchathehe.herokuapp.com/");
+    socket = io("https://backenddataas11.azurewebsites.net");
 
     socket.on("connect", () => {
       console.log("Connected");
